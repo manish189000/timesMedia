@@ -1,0 +1,769 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-parent {
+  background-color: #000000;
+  width: 100%;
+}
+.nav-bar-parent .nav-bar {
+  width: 100%;
+  
+  height: 6vw;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  background-color: #000000;
+  
+  position: fixed;
+}
+.nav-bar-parent .nav-bar .logo {
+  display: flex;
+  align-items: center;
+}
+.nav-bar-parent .nav-bar .logo h5 {
+  padding-left: 0.8vw;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5vw;
+  letter-spacing: 1px;
+}
+.nav-bar-parent .nav-bar .nav-content {
+  display: flex;
+  gap: 4vw;
+  padding-left:11vw;
+}
+.nav-bar-parent .nav-bar .nav-content a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75vw;
+  letter-spacing: 0.1vw;
+  color: #fff;
+}
+
+
+.nav-bar-parent .nav-bar i {
+  display: none;
+}
+.nav-bar-parent .drop-down {
+  display: none;
+}
+
+
+.expose{
+  width: 7vw;
+ margin-left: 12vw;
+}
+
+
+.nav-bar-parent .nav-bar .nav-content {
+  display: flex;
+  gap: 4vw;
+  padding-left: 28vw;
+}
+
+.nav-bar-parent .nav-bar .nav-content a:hover {
+ 
+  color: chocolate;
+  text-decoration: underline;
+  
+  
+}
+
+ li .home a{
+  color: #EF5636;
+}
+
+
+
+.who-we-are{
+  width: 100%;
+  height: auto;
+  padding-top:6.1vw;
+  background-image: url(./images2/abouts-hero.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+.div-hr{
+  width: 8vw;
+  padding-top: 2vw;
+ 
+}
+
+.div-hrline-text{
+  display: flex;
+  padding-top: 7vw;
+  justify-content: center;
+  list-style-type: none;
+  gap: 4vw;
+ 
+}
+
+
+.text-who-we-are{
+  font-size: 4vw;
+  font-family: "Roboto";
+  font-weight:700;
+  color: #EF5636;
+}
+
+.talented-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 3vw;
+  line-height:6vw;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.about-us-container-part{
+   
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+  background-image: url(./images2/after-hero-about-us-PhotoRoom.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.left-about-us{
+
+  width: 27vw;
+  border: 0.2vw solid orangered;
+  height:  42vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 7vw;
+  border-radius: 2vw;
+}
+
+.us-text{
+  padding-top: 12vw;
+ 
+  list-style-type: none;
+  font-size: 4vw;
+  color: #EF5636;
+}
+
+.right-about-us{
+  width:  43vw;
+  border: 0.2vw solid orangered;
+  height:  42vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 2vw;
+ 
+  line-height: 6vw;
+  margin-bottom: 16vw;
+  font-family: "Roboto";
+  font-weight: 600;
+ 
+}
+
+
+
+.righ-about-part1{
+  font-size: 2vw;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.righ-about-part2{
+  font-size: 2vw;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 400;
+
+}
+
+.righ-about-part3{
+  font-size: 2vw;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.color-match{
+  width: 100%;
+  height: 7vw;
+  background-color: #F5F6F7;
+}
+
+span{
+  color: #EF5636;
+  padding-right: 2vw;
+}
+.big-concept-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F6F7;
+}
+
+.big-img{
+  width:   77vw;
+  height: 40vw;
+  border-radius: 2vw;
+}
+
+.right-about-us1{
+  width:  43vw;
+  border: 0.2vw solid orangered;
+  height:  42vw;
+  padding-left: 2vw;
+  
+  border-radius: 2vw;
+ 
+  
+  margin-bottom: 16vw;
+  font-family: "Roboto";
+  font-weight: 600;
+ 
+}
+
+.righ-about-part2{
+  padding-top: 3.5vw;
+  line-height: 3vw;
+}
+
+.span-part{
+  display: flex;
+}
+
+.r1{
+  padding-left: 4vw;
+  font-family:"Roboto" ;
+}
+
+
+.brands-intro{
+  padding-left: 2vw;
+  padding-bottom: 5vw;
+  color: #EF5636;
+  font-weight: 800;
+  font-family: "Roboto";
+}
+
+
+
+.right-about-us2{
+  width:  43vw;
+  border: 0.2vw solid orangered;
+  height:  42vw;
+  padding-left: 2vw;
+  
+  border-radius: 2vw;
+ 
+  
+  margin-bottom: 16vw;
+  font-family: "Roboto";
+  font-weight: 600;
+ 
+}
+
+.fib{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 18vw;
+  font-size: 2vw;
+  line-height: 3vw;
+  font-weight: 400;
+  font-family: "Roboto";
+
+}
+
+.new-text-part-container{
+  padding-top: 10vw;
+ 
+  list-style-type: none;
+  font-size: 3vw;
+    color: #EF5636;
+    font-weight: 800;
+    line-height: 5vw;
+}
+
+.orange-text{
+  list-style: none;
+  color: #EF5636;
+  font-weight: 800;
+ 
+
+  font-size: 2vw;
+  
+}
+
+.orange-parent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3vw;
+}
+
+
+.fib1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 11vw;
+  font-size: 2vw;
+  line-height: 3vw;
+  font-weight: 400;
+  font-family: "Roboto";
+
+}
+
+
+ 
+.bootom{
+  display: flex;
+  list-style-type: none;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  background-color: #000000;
+  color: white;
+}
+
+.uself-link{
+  padding-right: 7vw;
+  padding-left: 7vw;
+ 
+   
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.bh1{
+ width: 12vw;
+ margin-bottom: 2vw;
+ opacity: 1;
+ border-radius: 0.4vw;
+ 
+}
+
+.brand-name-logo{
+  padding-left: 7vw;
+  
+}
+
+
+.li-part-text{
+  font-size: 1.4vw;
+  font-weight: 700;
+  font-family: "Roboto";
+  line-height: 3vw;
+
+}
+
+.links134{
+
+  padding-bottom: 4vw;
+  font-size: 2vw;
+   
+  font-weight: 700;
+  font-family: "Roboto";
+ 
+
+}
+
+.ert1{
+  
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 1.2vw;
+  line-height: 2.2vw;
+}
+
+.adress-container{
+  padding-left:0.1vw;
+  
+}
+
+
+@media (max-width:480px) {
+
+  
+.expose{
+  width: 25vw;
+  margin-left: 7vw;
+  border: 2px solid white;
+ 
+}
+
+  .nav-bar-parent {
+    width: 100%;
+  }
+  .nav-bar-parent .nav-bar {
+    width: 100%;
+    height: 16vw;
+    padding: 0 2vw;
+  }
+  .nav-bar-parent .nav-bar .logo h5 {
+    padding-left: 1.8vw;
+    font-size: 3.5vw;
+  }
+  .nav-bar-parent .nav-bar .nav-content {
+    display: none;
+  }
+  .nav-bar-parent .nav-bar .signup {
+    display: none;
+  }
+  .nav-bar-parent .nav-bar i {
+    display: block;
+    font-size: 8vw;
+    color: #fff;
+    margin-left: 48vw;
+    border: 2px solid white;
+  }
+  .nav-bar-parent .drop-down {
+    display: none;
+    width: 100%;
+    background-color: #000000;
+    padding-top: 16vw;
+    position: fixed;
+    text-align: center;
+    z-index: 100;
+    margin: 0 auto;
+  }
+  .nav-bar-parent .drop-down .menu-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding-bottom: 4vw;
+  }
+  .nav-bar-parent .drop-down .menu-list a {
+    text-decoration: none;
+    font-size: 4vw;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+
+   
+.who-we-are{
+  width: 100%;
+  height: auto;
+  padding-top:16vw;
+  
+}
+
+
+  
+  
+  
+  
+  
+}
+@media (max-width: 480px) {
+  .nav-bar-parent {
+    width: 100%;
+  }
+  .nav-bar-parent .nav-bar {
+    width: 100%;
+    height: 18vw;
+  }
+  .nav-bar-parent .nav-bar .logo h5 {
+    padding-left: 1.8vw;
+    font-size: 4.8vw;
+  }
+  .nav-bar-parent .nav-bar i {
+    font-size: 10vw;
+    color: #fff;
+  }
+  .nav-bar-parent .drop-down {
+    padding-top: 26vw;
+    padding-bottom: 10vw;
+  }
+  .nav-bar-parent .drop-down .menu-list {
+    width: 100%;
+    gap: 8vw;
+  }
+  .nav-bar-parent.drop-down .menu-list a {
+    font-size: 6vw;
+  }
+
+
+
+  .text-who-we-are{
+     font-size: 12vw;
+     
+  }
+ 
+
+  .div-hr {
+    width: 12vw;
+    padding-top: 6vw;
+    height: 5vw;
+}
+
+ 
+.talented-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 7vw;
+  line-height: 13vw;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.about-us-container-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.left-about-us {
+  width: 80vw;
+  border: 0.2vw solid orangered;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 7vw;
+  border-radius: 2vw;
+}
+
+.us-text {
+  padding-top: 12vw;
+  list-style-type: none;
+  font-size: 11vw;
+  color: #EF5636;
+}
+
+.right-about-us {
+  width: 80vw;
+  border: 0.2vw solid orangered;
+  height: 50vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 2vw;
+  line-height: 6vw;
+  margin-bottom: 16vw;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.righ-about-part2 {
+  font-size: 4.2vw;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  line-height: 7vw;
+}
+
+.righ-about-part2 {
+  font-size: 4.2vw;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.righ-about-part3 {
+  font-size: 4vw;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 400;
+  padding-top: 4vw;
+}
+
+
+.big-img {
+  width: 80vw;
+  height: 70vw;
+  border-radius: 2vw;
+}
+
+
+
+.right-about-us1 {
+  width: 80vw;
+  border: 0.2vw solid orangered;
+  height: 80vw;
+  padding-left: 2vw;
+  border-radius: 2vw;
+  margin-bottom: 16vw;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.fib {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 18vw;
+  font-size: 4vw;
+  line-height: 7vw;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.right-about-us2 {
+  width: 80vw;
+  border: 0.2vw solid orangered;
+  height: 42vw;
+  padding-left: 2vw;
+  border-radius: 2vw;
+  margin-bottom: 16vw;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.new-text-part-container {
+  padding-top: 10vw;
+  list-style-type: none;
+  font-size: 6vw;
+  color: #EF5636;
+  font-weight: 800;
+  line-height: 10vw;
+}
+
+.orange-text {
+  list-style: none;
+  color: #EF5636;
+  font-weight: 800;
+  font-size: 4.5vw;
+}
+
+.fib1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 11vw;
+  font-size: 3.5vw;
+  line-height: 6vw;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.right-about-us2 {
+  width: 80vw;
+  border: 0.2vw solid orangered;
+  height: 47vw;
+  padding-left: 2vw;
+  border-radius: 2vw;
+  margin-bottom: 16vw;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+
+
+.bootom {
+  flex-direction: column;
+  list-style-type: none;
+  padding-top: 7vw;
+  padding-bottom: 7vw;
+  background-color: #000000;
+  color: white;
+}
+
+
+.bh1 {
+  width: 40vw;
+  margin-bottom: 2vw;
+  opacity: 1;
+  border-radius: 0.4vw;
+}
+
+
+.li-part-text {
+  font-size: 4vw;
+  font-weight: 700;
+  font-family: "Roboto";
+  line-height: 15vw;
+}
+
+
+.uself-link {
+  padding-right: 19vw;
+  padding-left: 7vw;
+  padding-top: 8vw;
+}
+
+
+.links134 {
+  padding-bottom: 4vw;
+  font-size: 5vw;
+  font-weight: 700;
+  font-family: "Roboto";
+}
+
+.ert1 {
+  font-weight: 700;
+  font-family: "Roboto";
+  font-size: 3vw;
+  line-height: 6vw;
+}
+
+
+.adress-container{
+  padding-left:7vw;
+  padding-top: 9vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+}

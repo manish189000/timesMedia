@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .slider-container {
+      width: 59vw;
+      height: auto;
+      overflow: hidden;
+    }
+
+    .slider {
+      display: flex;
+      animation: scroll 2s linear infinite;
+      width: 200% /* Total width of all 7 slides (7 * 100%) */
+    }
+
+    .slide {
+      width: 20%; /* Each slide takes 100% of the slider container width */
+      flex-shrink: 0;
+    }
+
+    .slide img {
+      width:  12vw ;/* Make the image fill the entire slide */
+      height: 12vw;
+      border: 1vw solid red;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-600%); /* Total width of all 7 slides (7 * -100%) */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide">
+        <img src="./images/2127.jpg" alt="Image-1">
+      </div>
+      <div class="slide">
+        <img src="images/preview.jpg" alt="Image 2">
+      </div>
+      <div class="slide">
+        <img src="images/OO90880.jpg" alt="Image 3">
+      </div>
+      <div class="slide">
+        <img src="images/O7DCDT0.jpg" alt="Image 4">
+      </div>
+      <div class="slide">
+        <img src="images/OE60WQ0.jpg" alt="Image 5">
+      </div>
+      <div class="slide">
+        <img src="images/8055717.jpg" alt="Image 6">
+      </div>
+      <div class="slide">
+        <img src="images/another.jpg" alt="Image 7">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
